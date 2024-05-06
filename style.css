@@ -4,17 +4,36 @@
 *:after{
    box-sizing:border-box;
 }
+header{
+   background-color: yellow;
+}
 html,body{
    height:100%;
-   margin:0;
+   color: #40DB5E;
+   
    padding:0;
    text-align:center;
+
+      font-family: 'Roboto', sans-serif; /* Unique font */
+    margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      
+      border: 10px solid #333;
+      border-radius: 20px; /* Rounded corners */
+      background-color: white; /* Background color for the body */
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Box shadow for a subtle 3D effect */
+      
+  }
 }
 
 #panel-1{
    height:100%;
    background: gold;
-
 }
 #panel-2{
    height:100%;
@@ -23,7 +42,60 @@ html,body{
 }
 button{
    padding:10px;
+   position: relative;
+   right: 190px;
+   top: 150px;
+   height: 100px;
+   width: 100px;
+   background-color: #40DB93;
 }
 button:hover{
    cursor:pointer;
 }
+
+        .h1 {
+            font-family: 'Roboto', sans-serif; /* Unique font */
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 36px; /* Larger font size */
+            margin-bottom: 20px;
+            text-transform: uppercase; /* Uppercase text */
+            letter-spacing: 2px; /* Increased letter spacing */
+            margin-left: 22%;
+        }
+      .head{
+         margin-top: 50%;
+      }
+      .fa-calendar-alt{
+         font-size: 70px;
+      }
+      body{background-color: #40DB5E;}
+      #dateDisplay{
+         font-size: 24px;
+         color: #333;
+         text-align: center;
+      }
+      @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+      .demo{
+         width: 10px;
+      }
+      h2{
+         text-align: center;
+         position: relative;
+         right: 270px;
+         top: -200px;
+         color: #333;
+      }
