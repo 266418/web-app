@@ -9,7 +9,7 @@ header{
 }
 html,body{
    height:100%;
-   color: #40DB5E;
+   color: #383947;
    
    padding:0;
    text-align:center;
@@ -42,9 +42,9 @@ html,body{
 }
 button{
    padding:10px;
-   position: relative;
-   right: 190px;
-   top: 150px;
+   position: absolute;
+   right: 210px;
+   top: 600px;
    height: 100px;
    width: 100px;
    background-color: #40DB93;
@@ -69,12 +69,12 @@ button:hover{
         }
 
         h1 {
-            color: #333;
+            color: #FFFFFF;
             font-size: 36px; /* Larger font size */
             margin-bottom: 20px;
             text-transform: uppercase; /* Uppercase text */
             letter-spacing: 2px; /* Increased letter spacing */
-            margin-left: 22%;
+            margin-left: 6%;
         }
       .head{
          margin-top: 50%;
@@ -82,7 +82,7 @@ button:hover{
       .fa-calendar-alt{
          font-size: 70px;
       }
-      body{background-color: #40DB5E;}
+      body{background-color: #383947;}
       #dateDisplay{
          font-size: 24px;
          color: #333;
@@ -94,8 +94,29 @@ button:hover{
       }
       h2{
          text-align: center;
-         position: relative;
-         right: 270px;
-         top: -200px;
-         color: #333;
+         position: absolute;
+         right: 40px;
+         top: 100px;
+         color: #FFFFFF;
+         font-size: 35px;
+         font-family: "Abril Fatface", sans-serif;
+      }
+      .date{
+         position: absolute;
+         right: 80px;
+         top:350px;
+         font-size: 30px;
+         background-color: #FFFFFF;
+         text-decoration: none;
+      }
+      #Checkiday{
+         position: absolute;
+         top: 750px; 
+         
+      }
+      #Checkiday_Footer{
+         opacity: 0%;
+      }
+      #Checkiday_Date{
+         opacity: 0%;
       }
